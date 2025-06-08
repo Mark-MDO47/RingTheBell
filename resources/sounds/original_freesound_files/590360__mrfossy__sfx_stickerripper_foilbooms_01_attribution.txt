@@ -1,0 +1,7 @@
+SFX_STICKERRIPPER_foilBooms_01.wav
+https://freesound.org/people/MrFossy/sounds/590360/
+MrFossy
+October 4th, 2021
+
+One of a series of foley recordings I made by sticking a piece of contact (sticky plastic of the kind you use to cover books) to a wall and tearing various household objects off it. The idea was to make a fairly comprehensive collection of rips and tears with varying timbral qualities that I could use to design UI sounds effects. Recorded with a Rode NT1 into a Universal Audio Arrow.??This sound comes from a piece of scrunched-up aluminium foil. Slowing the sound down generated a satisfying boom with granular artefacts.
+Feel free to use my sounds for any commercial/noncommercial purpose without attribution. (I wouldn't object to being credited, however!)
