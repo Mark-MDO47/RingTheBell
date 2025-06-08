@@ -1,2 +1,4 @@
 # RingTheBell
-sounds for the strongman carnival ring the bell game
+Use YX5200 to create sounds for the strongman carnival ring the bell game.
+
+
