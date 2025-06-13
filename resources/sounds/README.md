@@ -22,6 +22,8 @@ Feel free to use my sounds for any commercial/noncommercial purpose without attr
  (I wouldn't object to being credited, however!)
 ```
 
+Thank you MrFossy!
+
 ## Creating and Modifying Sound Files
 [Top](#ring-the-bell-sounds "Top")<br>
 <img src="https://github.com/Mark-MDO47/RingTheBell/blob/master/resources/images/01_Audacity_GenerateChirp.png" width="500" alt="Audacity Generate Chirp">
