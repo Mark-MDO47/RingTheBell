@@ -10,6 +10,7 @@ I used Audacity to create and/or manipulate the sound files to a format usable b
 - https://www.audacityteam.org/
 
 ## FreeSound
+[Top](#ring-the-bell-sounds "Top")<br>
 I obtained one file from FreeSound that I didn't create with Audacity.
 - https://freesound.org
 
