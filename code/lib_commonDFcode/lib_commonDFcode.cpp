@@ -126,16 +126,6 @@ uint8_t DFcheckSoundDone() {
 void DFsetup() {
   Serial.println(F("Initializing DFPlayer ... (May take 3~5 seconds)"));
   
-  pinMode(DPIN_AUDIO_BUSY,  INPUT_PULLUP); // HIGH when audio stops
-  Serial2.begin(9600, SERIAL_8N1, DPIN_HWSRL_RX, DPIN_HWSRL_TX); // this is control to DFPlayer audio player 
-  if (!myDFPlayer.begin(Serial2, false, true)) {  // Serial2 to communicate with mp3 player
-    Serial.println(F("Unable to begin DFPlayer:"));
-    Serial.println(F("1.Please recheck the connection!"));
-    Serial.println(F("2.Please insert the SD card!"));
-    while(true){
-      delay(1);
-    }
-  }
   myDFPlayer.EQ(DFPLAYER_EQ_BASS); // our speaker is quite small
   myDFPlayer.outputDevice(DFPLAYER_DEVICE_SD); // location of sound files is MicroSD card
   myDFPlayer.volume(SOUND_VOL_MAX);  // Set volume value. From 0 to 30 - FIXME 25 is good
