@@ -34,9 +34,5 @@ The Arduino Nano and Uno do not natively support this capability.
 ## Schematic
 [Top](#ringthebell "Top")<br>
 
-## Code - Arduino
+## Code
 [Top](#ringthebell "Top")<br>
-
-## Code - ESP32
-[Top](#ringthebell "Top")<br>
-
