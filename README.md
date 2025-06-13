@@ -25,6 +25,12 @@ There are two ways to compile, which use different I/O pins:
 - as an ESP32 (but not ESP32-S3 which uses different pins)
 - as an Arduino Nano or Uno
 
+If compiled for an ESP32, the code will include the Over-The-Air update capability.
+- https://github.com/Mark-MDO47/DuelWithBanjos/blob/master/code/DuelWithBanjos/OTA_story.md
+- https://github.com/Mark-MDO47/UniRemote/blob/master/code/mdo_use_ota_webupdater/README.md
+
+The Arduino Nano and Uno do not natively support this capability.
+
 ## Schematic
 [Top](#ringthebell "Top")<br>
 
