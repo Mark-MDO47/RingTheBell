@@ -58,5 +58,5 @@ gitignore*
 *.bak
 *.lck
 *auto_saved_files*
-
+build
 
