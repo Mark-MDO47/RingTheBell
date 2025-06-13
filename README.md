@@ -34,6 +34,9 @@ The Arduino Nano and Uno do not natively support this OTA capability.
 
 ## Schematic
 [Top](#ringthebell "Top")<br>
+This "wiring schematic" shows connections for both the Arduino Nano and an ESP32 development board.
+
+<img src="https://github.com/Mark-MDO47/RingTheBell/blob/master/resources/images/RingTheBellSchematic.png" width="800" alt="Ring the Bell schematic"
 
 ## Code
 [Top](#ringthebell "Top")<br>
