@@ -7,6 +7,7 @@ Demo - use YX5200 to create sounds for the strongman carnival ring the bell game
   * [ESP32 Over-The-Air Update - OTA](#esp32-over\-the\-air-update-\--ota "ESP32 Over-The-Air Update - OTA")
 * [Schematic](#schematic "Schematic")
 * [Code](#code "Code")
+* [Sounds](#sounds "Sounds")
 
 ## The Idea
 [Top](#ringthebell "Top")<br>
