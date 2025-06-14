@@ -44,6 +44,7 @@ Notes
 - I did not show a switch/button for the ESP32 OTA control signal since the code is configured to automatically prepare that without input.
 - **TBR** I am using resistors to drop the voltage from YX5200 5V to ESP32 3.3V (to avoid damage to ESP32) but I am also testing to see if I can run reliably using the ESP32 3.3V serial TX without voltage translation.
   - I have experienced inconsistent behavior using the 3.3V output on WS2812B LEDs.
+- The 1K resistor in the path to the YX5200 RX line prevents coupling of digital noise into the sound output.
 
 <img src="https://github.com/Mark-MDO47/RingTheBell/blob/master/resources/images/RingTheBellSchematic.png" width="800" alt="Ring the Bell schematic">
 
