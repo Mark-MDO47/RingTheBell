@@ -24,19 +24,46 @@ Feel free to use my sounds for any commercial/noncommercial purpose without attr
 
 Thank you MrFossy!
 
+## YX5200 DFplayer
+[Top](#ring-the-bell-sounds "Top")<br>
+Using the YX5200 to read the sound files and drive the 8-ohm speaker.
+
+This repo has a lot of info on making .wav files that are suitable for the YX5200. I use .wav instead of .mp3 both because it works better with more clones of the YX5200 and because there is a noticeable start-up delay with .mp3 files.
+- https://github.com/Mark-MDO47/AudioPlayer-YX5200
+
 ## Creating and Modifying Sound Files
 [Top](#ring-the-bell-sounds "Top")<br>
+
+### Generate Chirp
+[Top](#ring-the-bell-sounds "Top")<br>
+Menu: **Generate** ==> **Chirp...** then use the settings shown.<br>
 <img src="https://github.com/Mark-MDO47/RingTheBell/blob/master/resources/images/01_Audacity_GenerateChirp.png" width="500" alt="Audacity Generate Chirp">
 
+### After Generate Chirp
+[Top](#ring-the-bell-sounds "Top")<br>
+You can see the gradual crescendo.<br>
 <img src="https://github.com/Mark-MDO47/RingTheBell/blob/master/resources/images/02_Audacity_AfterGenerateChirp.png" width="500" alt="Audacity After Generate Chirp">
 
+### Export Chirp
+[Top](#ring-the-bell-sounds "Top")<br>
+We save it as a 22050 Hz mono .wav file; see https://github.com/Mark-MDO47/AudioPlayer-YX5200 for the reason.<br>
 <img src="https://github.com/Mark-MDO47/RingTheBell/blob/master/resources/images/03_Audacity_ExportChirp.png" width="500" alt="Audacity Export Chirp.png">
 
+### Generate Silence
+[Top](#ring-the-bell-sounds "Top")<br>
+Menu: **Generate** ==> **Silence...** then use the settings shown.<br>
 <img src="https://github.com/Mark-MDO47/RingTheBell/blob/master/resources/images/04_Audacity_GenerateSilence.png" width="500" alt="Audacity Generate Silence">
 
+### Export Silence
+[Top](#ring-the-bell-sounds "Top")<br>
 <img src="https://github.com/Mark-MDO47/RingTheBell/blob/master/resources/images/05_Audacity_ExportSilence.png" width="500" alt="Audacity Export Silence">
 
+### Import Mr. Fossy
+[Top](#ring-the-bell-sounds "Top")<br>
+Menu: **File** ==> **Import** ==> **Audio...** and choose the file.
 <img src="https://github.com/Mark-MDO47/RingTheBell/blob/master/resources/images/06_Audacity_ImportAudio.png" width="500" alt="Audacity Import Mr. Fossy Audio">
 
+### Export Mr. Fossy
+[Top](#ring-the-bell-sounds "Top")<br>
 <img src="https://github.com/Mark-MDO47/RingTheBell/blob/master/resources/images/07_Audacity_ExportMrFossy.png" width="500" alt="Audacity Export Mr. Fossy Audio">
 
