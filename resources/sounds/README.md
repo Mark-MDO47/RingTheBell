@@ -60,7 +60,7 @@ Menu: **Generate** ==> **Silence...** then use the settings shown.<br>
 
 ### Import Mr. Fossy
 [Top](#ring-the-bell-sounds "Top")<br>
-Menu: **File** ==> **Import** ==> **Audio...** and choose the file.
+Menu: **File** ==> **Import** ==> **Audio...** and choose the file.<br>
 <img src="https://github.com/Mark-MDO47/RingTheBell/blob/master/resources/images/06_Audacity_ImportAudio.png" width="500" alt="Audacity Import Mr. Fossy Audio">
 
 ### Export Mr. Fossy
