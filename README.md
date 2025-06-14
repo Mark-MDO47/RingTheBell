@@ -42,3 +42,10 @@ Note that I did not show a switch/button for the ESP32 OTA control signal since 
 
 ## Code
 [Top](#ringthebell "Top")<br>
+The code is in the ./code/ area split into several directories. The *.ino file is in ./code/RingTheBell/RingTheBell.ino.
+
+TBS - I will put a README in the code directory.
+
+## Sounds
+[Top](#ringthebell "Top")<br>
+https://github.com/Mark-MDO47/RingTheBell/blob/master/resources/sounds/README.md
