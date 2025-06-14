@@ -67,3 +67,31 @@ Menu: **File** ==> **Import** ==> **Audio...** and choose the file.<br>
 [Top](#ring-the-bell-sounds "Top")<br>
 <img src="https://github.com/Mark-MDO47/RingTheBell/blob/master/resources/images/07_Audacity_ExportMrFossy.png" width="500" alt="Audacity Export Mr. Fossy Audio">
 
+## Copy the Files to MicroSD Card
+[Top](#ring-the-bell-sounds "Top")<br>
+The MicroSD card **must** be freshly formatted as FAT32; see https://github.com/Mark-MDO47/AudioPlayer-YX5200
+
+Also from that reference, use copyem.py to create a list of commands to copy the files in correct order onto the MicroSD card.
+- I use GIT bash on Windows to do this; my script is run_copyem.sh which assumes
+  - the freshly FAT32-formatted MicroSD card is mounted as H: (Windows)
+  - I am running the script from the directory containing the .wav files
+  - that same directory contains Attributions.html file that I want stored on the MicroSD card
+  - I want the output as a bash script not a Windows .bat format
+  - once again, I suggest you look at https://github.com/Mark-MDO47/AudioPlayer-YX5200 for more details
+
+You could either just let the commands show up on the screen and copy/paste them back into the GIT bash screen, but run_copyem.sh redirects them to file copy_files.sh.
+
+Here is what my script run_copyem.sh looks like:<br>
+```
+python /d/github-Mark-MDO47/AudioPlayer-YX5200/copyem.py -d . -s H: -f 0003_YX5200_Silence.wav -l > copy_files.sh
+```
+
+Here is what the output script copy_files.sh looks like:<br>
+```
+cp ./0001_yx5200_chirp.wav H:/001.wav
+cp ./0002_yx5200_mrfossy__sfx_stickerripper_foilbooms_01.wav H:/002.wav
+cp ./0003_yx5200_silence.wav H:/003.wav
+
+mkdir H:/ATTRIBUTIONS
+cp  ./Attributions.html H:/ATTRIBUTIONS
+```
