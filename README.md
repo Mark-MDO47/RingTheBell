@@ -37,7 +37,9 @@ The Arduino Nano and Uno do not natively support this OTA capability.
 [Top](#ringthebell "Top")<br>
 This "wiring schematic" shows connections for both the Arduino Nano and an ESP32 development board.
 
-Note that I did not show a switch/button for the ESP32 OTA control signal since the code is configured to automatically prepare that without input.
+Notes
+- I did not show a switch/button for the ESP32 OTA control signal since the code is configured to automatically prepare that without input.
+- **TBR** I am using resistors to drop the voltage from YX5200 5V to ESP32 3.3V but testing to see if I can run reliably using the ESP32 3.3V serial TX without voltage translation.
 
 <img src="https://github.com/Mark-MDO47/RingTheBell/blob/master/resources/images/RingTheBellSchematic.png" width="800" alt="Ring the Bell schematic">
 
