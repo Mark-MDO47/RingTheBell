@@ -36,7 +36,9 @@ The Arduino Nano and Uno do not natively support this OTA capability.
 ## Schematic
 [Top](#ringthebell "Top")<br>
 This "schematic wiring diagram" shows connections for both the Arduino Nano and an ESP32 development board.
-- I sometimes call my schematics "schematic wiring diagrams" because I don't follow the rules of the standards organizations, although I reserve the right to just call them schematics. 
+- I sometimes call my schematics "schematic wiring diagrams" because I don't follow the rules of the standards organizations, although I reserve the right to just call them schematics.
+  - I show all the connections as wires and show the chips/modules all together instead of separated by function since I use my "schematic" to do the actual wiring of my project.
+  - I tend to forget to hook up some of the power and ground connections if I use the standard schematic methods instead of showing the wire.
 
 Notes
 - I did not show a switch/button for the ESP32 OTA control signal since the code is configured to automatically prepare that without input.
