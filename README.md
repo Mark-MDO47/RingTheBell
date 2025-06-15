@@ -73,7 +73,7 @@ The sounds and a description of how to create/adjust sounds and how to copy them
 | --- | --- | --- | --- |
 | ESP32 | 1 @ ESP32 Devkit V1 ESP-WROOM-32 (or any ESP32 WiFi capable module except an ESP-32-S3) | https://www.amazon.com/Hosyond-ESP-WROOM-32-Development-Microcontroller-Compatible/dp/B0C7C2HQ7P/ref=sr_1_4 | $3.50 |
 | YX5200 | 1 @ Sound Module with MicroSD (TF) card socket | https://www.amazon.com/Organizer-YX5200-DFPlayer-Supporting-Arduino/dp/B07XXYQBNS/ref=sr_1_1 | $2.00 |
-| MicroSD card | 1 @ 32GByte or smaller MicroSD card formatted as FAT32 | TBS | TBS |
+| MicroSD card | 1 @ 32GByte or smaller MicroSD card formatted as FAT32; shown is 16GB example | https://www.amazon.com/dp/B08KSSX9PH | $3.75 |
 | speaker |  Metal Shell Round Internal Magnet Speaker 2W 8 Ohm approx 1 inch | https://www.amazon.com/dp/B0177ABRQ6 | $2.80 |
 | resistors | 1 @ 1.0-KOhm 1/4 watt through-hole resistors | https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT1K00/1741314 | $0.10 |
 | resistors | 2 @ 3.3-KOhm 1/4 watt through-hole resistors | https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT3K30/1741376 | $0.10 |
@@ -87,7 +87,7 @@ The sounds and a description of how to create/adjust sounds and how to copy them
 | --- | --- | --- | --- |
 | NANO | Arduino NANO (or UNO) or clone | https://www.aliexpress.us/item/3256805941736729.html | $1.40 |
 | YX5200 | 1 @ Sound Module with MicroSD (TF) card socket | https://www.amazon.com/Organizer-YX5200-DFPlayer-Supporting-Arduino/dp/B07XXYQBNS/ref=sr_1_1 | $2.00 |
-| MicroSD card | 1 @ 32GByte or smaller MicroSD card formatted as FAT32 | TBS | TBS |
+| MicroSD card | 1 @ 32GByte or smaller MicroSD card formatted as FAT32; shown is 16GB example | https://www.amazon.com/dp/B08KSSX9PH | $3.75 |
 | speaker |  Metal Shell Round Internal Magnet Speaker 2W 8 Ohm approx 1 inch | https://www.amazon.com/dp/B0177ABRQ6 | $2.80 |
 | resistors | 1 @ 1.0-KOhm 1/4 watt through-hole resistors | https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT1K00/1741314 | $0.10 |
 
