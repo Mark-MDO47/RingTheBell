@@ -108,11 +108,14 @@
 // mdo_use_ota_webupdater https://github.com/Mark-MDO47/UniRemote/tree/master/code/mdo_use_ota_webupdater
 // This does not connect to WiFi router until it gets turned on
 #define MDO_USE_OTA  1 // zero to not use, non-zero to use OTA ESP32 Over-The-Air software updates
-#define FORCE_OTA_ON 1 // ESP32: non-zero to force OTA to be on always without needing the pin
+#define FORCE_OTA_ON_IF 1 // ESP32: non-zero to force OTA to be on always without needing the pin ONLY if MDO_USE_OTA is also on
 
 #if MDO_USE_OTA
 #include "../lib_mdo_use_ota/mdo_use_ota_webupdater.h"   // for mdo_use_ota_webupdater "library"
 #include "../lib_mdo_use_ota/mdo_use_ota_webupdater.cpp" // for mdo_use_ota_webupdater "library"
+#define FORCE_OTA_ON FORCE_OTA_ON_IF // DO NOT EDIT THIS - keep choice above
+#else // not MDO_USE_OTA
+#define FORCE_OTA_ON 0 // DO NOT EDIT THIS - don't allow mistake
 #endif // MDO_USE_OTA
 
 #include "HardwareSerial.h"         // to talk with the YX5200 - ESP32 uses hardware serial port
@@ -319,7 +322,7 @@ void setup() {
   }
   delay(1000);
   Serial.println(""); // print a blank line in case there is some junk from power-on
-  Serial.println("starting RingTheBell_ESP32");
+  Serial.println("starting RingTheBell");
 
   // initialize the control pins; active LOW
   pinMode(DPIN_MALLET_HIT, INPUT_PULLUP);
@@ -334,8 +337,9 @@ void setup() {
   DFsetup(); // this routine is in lib_commonDFcode.cpp; sets up YX5200 for our method of operation
   // start the first sound, then allow normal loop() processing
   DFstartSound(SOUNDNUM_silence, SOUND_VOL_DEFAULT);
+  Serial.println("  DFstartSound silence");
 
-  Serial.println("\nRingTheBell_ESP32 init complete...");
+  Serial.println("\nRingTheBell init complete...");
 
 } // end setup()
 
@@ -343,14 +347,23 @@ void setup() {
 // loop()
 //
 void loop() {
+  static uint16_t print_silence = 2;
 
   if (ControlActive(DPIN_MALLET_HIT, SOUNDNUM_MalletHit)) {
     DFstartSound(SOUNDNUM_MalletHit, SOUND_VOL_DEFAULT); // force sequence start
+    Serial.println("  DFstartSound MalletHit");
+    print_silence = 2;
   } else if (ControlActive(DPIN_RING_BELL, SOUNDNUM_RingBell)) {
     DFstartSound(SOUNDNUM_RingBell, SOUND_VOL_DEFAULT); // force sequence finish - expected prior to sound done
+    Serial.println("  DFstartSound RingBell");
+    print_silence = 2;
   } else if (DFcheckSoundDone()) {
     // next sound in sequence - silence
-    DFstartSound(SOUNDNUM_silence, SOUND_VOL_DEFAULT); // sequence to silence
+    if (0 != print_silence) {
+      DFstartSound(SOUNDNUM_silence, SOUND_VOL_DEFAULT); // sequence to silence
+      Serial.printf("  DFstartSound silence %d\n", print_silence);
+      print_silence -= 1;
+    }
   }
 
 #if MDO_USE_OTA // if using Over-The-Air software updates
