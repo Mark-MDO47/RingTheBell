@@ -45,6 +45,7 @@ Notes
 - **TBR** I am using resistors to drop the voltage from YX5200 5V to ESP32 3.3V (to avoid damage to ESP32) but I am also testing to see if I can run reliably using the ESP32 3.3V serial TX without voltage translation.
   - I have experienced inconsistent behavior using the 3.3V output on WS2812B LEDs.
 - The 1K resistor in the path to the YX5200 RX line prevents coupling of digital noise into the sound output.
+- I did not include external power for these prototype designs; I assume they will be powered from the USB
 
 <img src="https://github.com/Mark-MDO47/RingTheBell/blob/master/resources/images/RingTheBellSchematic.png" width="800" alt="Ring the Bell schematic">
 
@@ -58,3 +59,33 @@ A directory of the code can be found here:
 [Top](#ringthebell "Top")<br>
 The sounds and a description of how to create/adjust sounds and how to copy them to the MicroSD card for the YX5200 can be found here:<br>
 - https://github.com/Mark-MDO47/RingTheBell/blob/master/resources/sounds/README.md
+
+## Parts List
+[Top](#ringthebell "Top")<br>
+
+### ESP32 version
+[Top](#ringthebell "Top")<br>
+
+| Title | Descrip | URL | each |
+| --- | --- | --- | --- |
+| ESP32 | 1 @ ESP32 Devkit V1 ESP-WROOM-32 (or any ESP32 WiFi capable module except an ESP-32-S3) | https://www.amazon.com/Hosyond-ESP-WROOM-32-Development-Microcontroller-Compatible/dp/B0C7C2HQ7P/ref=sr_1_4 | $3.50 |
+| YX5200 | 1 @ Sound Module with MicroSD (TF) card socket | https://www.amazon.com/Organizer-YX5200-DFPlayer-Supporting-Arduino/dp/B07XXYQBNS/ref=sr_1_1 | $2.00 |
+| MicroSD card | 1 @ 32GByte or smaller MicroSD card formatted as FAT32 | TBS | TBS |
+| speaker |  Metal Shell Round Internal Magnet Speaker 2W 8 Ohm approx 1 inch | https://www.amazon.com/dp/B0177ABRQ6 | $2.80 |
+| resistors | 1 @ 1.0-KOhm 1/4 watt through-hole resistors | https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT1K00/1741314 | $0.10 |
+| resistors | 2 @ 3.3-KOhm 1/4 watt through-hole resistors | https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT3K30/1741376 | $0.10 |
+| resistors | 2 @ 6.65-KOhm 1/4 watt through-hole resistors | https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNF14FTD6K65/1682364 | $0.10 |
+| **maybe TBR** SN74HCT125N | 1 @ Non-inverting 5.5V buffer 14-pin DIP | https://www.digikey.com/en/products/detail/texas-instruments/SN74HCT125N/376860 | $0.63 |
+
+### Arduino NANO/UNO version
+[Top](#ringthebell "Top")<br>
+
+| Title | Descrip | URL | each |
+| --- | --- | --- | --- |
+| NANO | Arduino NANO or UNO or clone | TBS | TBS |
+| YX5200 | 1 @ Sound Module with MicroSD (TF) card socket | https://www.amazon.com/Organizer-YX5200-DFPlayer-Supporting-Arduino/dp/B07XXYQBNS/ref=sr_1_1 | $2.00 |
+| MicroSD card | 1 @ 32GByte or smaller MicroSD card formatted as FAT32 | TBS | TBS |
+| speaker |  Metal Shell Round Internal Magnet Speaker 2W 8 Ohm approx 1 inch | https://www.amazon.com/dp/B0177ABRQ6 | $2.80 |
+| resistors | 1 @ 1.0-KOhm 1/4 watt through-hole resistors | https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT1K00/1741314 | $0.10 |
+
+
