@@ -50,10 +50,11 @@ Notes
 
 ## Code
 [Top](#ringthebell "Top")<br>
-The code is in the ./code/ area split into several directories. The *.ino file is in ./code/RingTheBell/RingTheBell.ino.
-
-TBS - I will put a README in the code directory.
+The code is in the ./code/ area split into several directories. The *.ino file is in ./code/RingTheBell/RingTheBell.ino.<br>
+A directory of the code can be found here:
+- https://github.com/Mark-MDO47/RingTheBell/tree/master/code
 
 ## Sounds
 [Top](#ringthebell "Top")<br>
-https://github.com/Mark-MDO47/RingTheBell/blob/master/resources/sounds/README.md
+The sounds and a description of how to create/adjust sounds and how to copy them to the MicroSD card for the YX5200 can be found here:<br>
+- https://github.com/Mark-MDO47/RingTheBell/blob/master/resources/sounds/README.md
