@@ -8,6 +8,9 @@ Demo - use YX5200 to create sounds for the strongman carnival ring the bell game
 * [Schematic](#schematic "Schematic")
 * [Code](#code "Code")
 * [Sounds](#sounds "Sounds")
+* [Parts List](#parts-list "Parts List")
+  * [ESP32 version](#esp32-version "ESP32 version")
+  * [Arduino NANO/UNO version](#arduino-nanouno-version "Arduino NANO/UNO version")
 
 ## The Idea
 [Top](#ringthebell "Top")<br>
