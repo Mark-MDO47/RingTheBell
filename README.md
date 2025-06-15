@@ -34,7 +34,20 @@ If compiled for an ESP32, the code will include the Over-The-Air Update (OTA) ca
 - https://github.com/Mark-MDO47/DuelWithBanjos/blob/master/code/DuelWithBanjos/OTA_story.md
 - https://github.com/Mark-MDO47/UniRemote/blob/master/code/mdo_use_ota_webupdater/README.md
 
-The Arduino Nano and Uno do not natively support this OTA capability.
+If you want to compile for ESP32 with OTA enabled you need to create a file "gitignore_wifi_key.h" with the following definitions (I suggest using the ".gitignore" file so this does not accidentally show up in your GitHub; see below after the #define statements).
+```
+#define WIFI_PWD "password for your local wifi"
+#define WIFI_SSID "SSID for your local WiFi"
+#define WIFI_OTA_WEB_USR "username to be able to do OTA"
+#define WIFI_OTA_WEB_PWD "password to be able to do OTA"
+```
+
+You could optionally add this line at the end of your **.gitignore** file to prevent any file or directory starting with gitignore from being saved to the repository. Can save some embarassment.
+```
+gitignore*
+```
+
+The Arduino Nano and Arduino Uno do not natively support this OTA capability.
 
 ## Schematic
 [Top](#ringthebell "Top")<br>
