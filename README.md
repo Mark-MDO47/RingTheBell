@@ -30,28 +30,10 @@ There are two ways to compile, which use different I/O pins:
 - as an Arduino Nano or Uno
 
 ### ESP32 Over-The-Air Update - OTA
-If compiled for an ESP32, the code will include the Over-The-Air Update (OTA) capability. This is implemented so it is always-on, not using the ESP-NOW commands from the following descriptions (which are from other projects).
+[Top](#ringthebell "Top")<br>
+If compiled for an ESP32, the code will include the Over-The-Air Update (OTA) capability. By default, this is implemented so it is always-on, not requiring the ESP-NOW commands from the following descriptions (which are from other projects) nor the optional button push.
 - https://github.com/Mark-MDO47/DuelWithBanjos/blob/master/code/DuelWithBanjos/OTA_story.md
 - https://github.com/Mark-MDO47/UniRemote/blob/master/code/mdo_use_ota_webupdater/README.md
-
-ESP32 OTA compilation is controlled by the following **#define** statements in **RingTheBell.ino**
-```C
-#define MDO_USE_OTA  1 // zero to not use, non-zero to use OTA ESP32 Over-The-Air software updates
-#define FORCE_OTA_ON_IF 1 // ESP32: non-zero to force OTA to be on always without needing the pin ONLY if MDO_USE_OTA is also on
-```
-
-If you want to compile for ESP32 with OTA enabled you need to create a file **gitignore_wifi_key.h** with the following definitions (I suggest using the ".gitignore" file so this does not accidentally show up in your public repository; see below after the #define statements).
-```C
-#define WIFI_PWD "password for your local wifi"
-#define WIFI_SSID "SSID for your local WiFi"
-#define WIFI_OTA_WEB_USR "username to be able to do OTA"
-#define WIFI_OTA_WEB_PWD "password to be able to do OTA"
-```
-
-You could optionally add this line at the end of your **.gitignore** file to prevent any file or directory starting with gitignore from being saved to the repository. Can save some embarassment.
-```
-gitignore*
-```
 
 NOTE: The **Arduino Nano** and **Arduino Uno** do not natively support this OTA capability.
 
