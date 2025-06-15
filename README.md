@@ -85,7 +85,7 @@ The sounds and a description of how to create/adjust sounds and how to copy them
 
 | Title | Descrip | URL | each |
 | --- | --- | --- | --- |
-| NANO | Arduino NANO or UNO or clone | TBS | TBS |
+| NANO | Arduino NANO (or UNO) or clone | https://www.aliexpress.us/item/3256805941736729.html | $1.40 |
 | YX5200 | 1 @ Sound Module with MicroSD (TF) card socket | https://www.amazon.com/Organizer-YX5200-DFPlayer-Supporting-Arduino/dp/B07XXYQBNS/ref=sr_1_1 | $2.00 |
 | MicroSD card | 1 @ 32GByte or smaller MicroSD card formatted as FAT32 | TBS | TBS |
 | speaker |  Metal Shell Round Internal Magnet Speaker 2W 8 Ohm approx 1 inch | https://www.amazon.com/dp/B0177ABRQ6 | $2.80 |
