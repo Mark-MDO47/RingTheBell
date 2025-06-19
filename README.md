@@ -49,7 +49,9 @@ Notes
 - I am using resistors to drop the voltage from YX5200 5V to ESP32 3.3V (to avoid damage to ESP32)
 - **TBR** I am also testing to see if I can run reliably using the ESP32 3.3V serial TX without voltage translation.
   - I have experienced inconsistent behavior using the 3.3V output on WS2812B LEDs.
-  - **NOT SURE YET** but this doesn't appear to be working
+  - **NOT SURE YET** but this doesn't appear to be working. I expect to figure this out this weekend.
+  - To see how to use a SN74HCT125N quadruple bus buffer to raise the signal voltage from 3.3V to 5.0V see the following (there are other components but the ESP32 and YX5200 are wired the same)
+    - https://github.com/Mark-MDO47/DuelWithBanjos?tab=readme-ov-file#schematic
 - The 1K resistor in the path to the YX5200 RX line prevents coupling of digital noise into the sound output.
 - I did not include external power for these prototype designs; I assume they will be powered from the USB
 
