@@ -411,6 +411,18 @@
     [
       "6bcce1dc-3001-4bfa-9012-fe78eaf2f613",
       "Root"
+    ],
+    [
+      "fd58b114-c8aa-4ae9-a434-d446064b3848",
+      "74HCT125N"
+    ],
+    [
+      "d8a99626-a448-404c-9ba7-f8f1679fccc7",
+      "3.3V Power"
+    ],
+    [
+      "89eecee1-c2f2-46ff-95ad-0a0410cab23b",
+      "3.3V UART"
     ]
   ],
   "text_variables": {}
