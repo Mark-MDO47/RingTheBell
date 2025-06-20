@@ -6,7 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "Ring the Bell Prototypes")
-		(date "2025-06-19")
+		(date "2025-06-20")
+		(rev "Rev 0.9")
 		(company "https://github.com/Mark-MDO47/RingTheBell")
 	)
 	(lib_symbols
@@ -19702,7 +19703,7 @@
 	)
 	(text "Green"
 		(exclude_from_sim no)
-		(at 67.564 154.178 0)
+		(at 67.564 130.048 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19722,7 +19723,7 @@
 	)
 	(text "Blue"
 		(exclude_from_sim no)
-		(at 67.31 156.464 0)
+		(at 67.31 132.334 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19762,7 +19763,7 @@
 	)
 	(text "Yellow"
 		(exclude_from_sim no)
-		(at 119.888 151.13 0)
+		(at 119.888 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19772,7 +19773,7 @@
 	)
 	(text "Green"
 		(exclude_from_sim no)
-		(at 57.15 137.668 0)
+		(at 57.15 122.682 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19792,7 +19793,7 @@
 	)
 	(text "Blue"
 		(exclude_from_sim no)
-		(at 45.974 137.922 0)
+		(at 45.974 122.936 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19809,12 +19810,6 @@
 			)
 		)
 		(uuid "bb809355-a164-47a8-9eea-c412290b07ae")
-	)
-	(junction
-		(at 31.75 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2bcad4ee-3466-4e68-a47e-d5d2c785f068")
 	)
 	(junction
 		(at 31.75 93.98)
@@ -19874,7 +19869,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 167.64) (xy 106.68 167.64)
+			(xy 101.6 143.51) (xy 106.68 143.51)
 		)
 		(stroke
 			(width 0)
@@ -19894,7 +19889,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 157.48) (xy 48.26 157.48)
+			(xy 71.12 133.35) (xy 48.26 133.35)
 		)
 		(stroke
 			(width 0)
@@ -19904,17 +19899,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 110.49) (xy 60.96 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "640bbeab-2ffa-4cde-8fe9-bf29451a0b82")
-	)
-	(wire
-		(pts
-			(xy 31.75 186.69) (xy 106.68 186.69)
+			(xy 31.75 162.56) (xy 106.68 162.56)
 		)
 		(stroke
 			(width 0)
@@ -19924,7 +19909,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 154.94) (xy 71.12 154.94)
+			(xy 59.69 130.81) (xy 71.12 130.81)
 		)
 		(stroke
 			(width 0)
@@ -19934,7 +19919,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 167.64) (xy 59.69 165.1)
+			(xy 59.69 143.51) (xy 59.69 140.97)
 		)
 		(stroke
 			(width 0)
@@ -19944,7 +19929,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 157.48) (xy 48.26 118.11)
+			(xy 48.26 133.35) (xy 48.26 118.11)
 		)
 		(stroke
 			(width 0)
@@ -19974,27 +19959,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 110.49) (xy 60.96 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7917fbfc-8479-45bb-b212-29f491ce676d")
-	)
-	(wire
-		(pts
-			(xy 119.38 101.6) (xy 119.38 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "820ab723-8873-48cf-9b93-2df40142c166")
-	)
-	(wire
-		(pts
-			(xy 60.96 152.4) (xy 71.12 152.4)
+			(xy 60.96 128.27) (xy 71.12 128.27)
 		)
 		(stroke
 			(width 0)
@@ -20004,7 +19969,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 97.79) (xy 31.75 186.69)
+			(xy 31.75 93.98) (xy 31.75 162.56)
 		)
 		(stroke
 			(width 0)
@@ -20034,7 +19999,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 167.64) (xy 59.69 167.64)
+			(xy 57.15 143.51) (xy 59.69 143.51)
 		)
 		(stroke
 			(width 0)
@@ -20044,13 +20009,13 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 93.98) (xy 31.75 97.79)
+			(xy 60.96 128.27) (xy 60.96 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a8e8fc7-833b-4985-94e2-3cd25defdde4")
+		(uuid "9acaf4e7-3996-438c-95cf-5f9963fdc16f")
 	)
 	(wire
 		(pts
@@ -20064,7 +20029,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 167.64) (xy 106.68 186.69)
+			(xy 106.68 143.51) (xy 106.68 162.56)
 		)
 		(stroke
 			(width 0)
@@ -20074,17 +20039,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 97.79) (xy 31.75 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af6be3b6-c6eb-41f1-a740-5734e00ebe37")
-	)
-	(wire
-		(pts
-			(xy 101.6 152.4) (xy 130.81 152.4)
+			(xy 101.6 128.27) (xy 130.81 128.27)
 		)
 		(stroke
 			(width 0)
@@ -20094,7 +20049,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 154.94) (xy 53.34 154.94)
+			(xy 54.61 130.81) (xy 53.34 130.81)
 		)
 		(stroke
 			(width 0)
@@ -20114,7 +20069,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 165.1) (xy 71.12 165.1)
+			(xy 59.69 140.97) (xy 71.12 140.97)
 		)
 		(stroke
 			(width 0)
@@ -20134,7 +20089,27 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 170.18) (xy 71.12 170.18)
+			(xy 60.96 109.22) (xy 119.38 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2e4f75c-23e9-40d3-83fb-0d8c22b8b64b")
+	)
+	(wire
+		(pts
+			(xy 130.81 48.26) (xy 130.81 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eda172ac-9e30-4b70-8f7c-fedfffc0a6de")
+	)
+	(wire
+		(pts
+			(xy 57.15 146.05) (xy 71.12 146.05)
 		)
 		(stroke
 			(width 0)
@@ -20144,23 +20119,23 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 48.26) (xy 130.81 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f93e5f0d-9879-4731-a020-69714588f917")
-	)
-	(wire
-		(pts
-			(xy 53.34 154.94) (xy 53.34 114.3)
+			(xy 53.34 130.81) (xy 53.34 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fe6ed207-6aec-4c74-99c6-7c808330df28")
+	)
+	(wire
+		(pts
+			(xy 119.38 109.22) (xy 119.38 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff602ade-a45a-496f-9464-9c5c354dcf6b")
 	)
 	(symbol
 		(lib_id "mdoLibrary:mdo_esp32_wroom")
@@ -20316,7 +20291,7 @@
 	(symbol
 		(lib_name "YX5200_1")
 		(lib_id "mdoLibrary:YX5200")
-		(at 86.36 170.18 0)
+		(at 86.36 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20325,7 +20300,7 @@
 		(fields_autoplaced yes)
 		(uuid "80bb1d36-7435-4421-b300-7fa60e52549f")
 		(property "Reference" "A9"
-			(at 86.36 146.05 0)
+			(at 86.36 121.92 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20333,7 +20308,7 @@
 			)
 		)
 		(property "Value" "YX5200"
-			(at 86.36 148.59 0)
+			(at 86.36 124.46 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20341,7 +20316,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 170.18 0)
+			(at 86.36 146.05 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20349,7 +20324,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 170.18 0)
+			(at 86.36 146.05 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20357,7 +20332,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 170.18 0)
+			(at 86.36 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23584,7 +23559,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 57.15 154.94 90)
+		(at 57.15 130.81 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23592,7 +23567,7 @@
 		(dnp no)
 		(uuid "de40c65d-8b50-4822-bee6-ccf5176fb3a3")
 		(property "Reference" "R12"
-			(at 57.404 148.59 90)
+			(at 57.404 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23600,7 +23575,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 57.404 151.638 90)
+			(at 57.404 127.508 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23608,7 +23583,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 154.94 0)
+			(at 57.15 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23617,7 +23592,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 154.94 0)
+			(at 57.15 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23626,7 +23601,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 57.15 154.94 0)
+			(at 57.15 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23651,7 +23626,7 @@
 	)
 	(symbol
 		(lib_id "Device:Speaker")
-		(at 52.07 167.64 0)
+		(at 52.07 143.51 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23660,7 +23635,7 @@
 		(dnp no)
 		(uuid "fd349c76-87b0-4942-90fd-b464eb4ee6c7")
 		(property "Reference" "LS4"
-			(at 46.99 167.6399 0)
+			(at 46.99 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23669,7 +23644,7 @@
 			)
 		)
 		(property "Value" "Speaker"
-			(at 46.99 170.1799 0)
+			(at 46.99 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23678,7 +23653,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 172.72 0)
+			(at 52.07 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23687,7 +23662,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.324 168.91 0)
+			(at 52.324 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23696,7 +23671,7 @@
 			)
 		)
 		(property "Description" "Speaker"
-			(at 52.07 167.64 0)
+			(at 52.07 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)

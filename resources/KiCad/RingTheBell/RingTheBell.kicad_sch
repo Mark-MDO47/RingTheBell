@@ -6,7 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "Ring the Bell Prototypes")
-		(date "2025-06-19")
+		(date "2025-06-20")
+		(rev "Rev 0.9")
 		(company "https://github.com/Mark-MDO47/RingTheBell")
 	)
 	(lib_symbols
@@ -19692,7 +19693,7 @@
 	)
 	(text "Yellow"
 		(exclude_from_sim no)
-		(at 71.374 117.348 0)
+		(at 71.374 100.838 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19702,7 +19703,7 @@
 	)
 	(text "Green"
 		(exclude_from_sim no)
-		(at 56.642 159.512 0)
+		(at 56.642 121.412 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19732,7 +19733,7 @@
 	)
 	(text "Blue"
 		(exclude_from_sim no)
-		(at 42.164 131.572 0)
+		(at 42.164 106.426 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19752,7 +19753,7 @@
 	)
 	(text "Green"
 		(exclude_from_sim no)
-		(at 51.816 131.572 0)
+		(at 51.816 106.426 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19782,7 +19783,7 @@
 	)
 	(text "Blue"
 		(exclude_from_sim no)
-		(at 56.388 161.798 0)
+		(at 56.388 123.698 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19792,7 +19793,7 @@
 	)
 	(text "Yellow"
 		(exclude_from_sim no)
-		(at 92.71 155.702 0)
+		(at 92.71 117.602 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19824,17 +19825,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 139.7) (xy 55.88 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04e22ca8-d828-48c7-b6bb-da7168b1cdc2")
-	)
-	(wire
-		(pts
-			(xy 45.72 170.18) (xy 45.72 172.72)
+			(xy 45.72 132.08) (xy 45.72 134.62)
 		)
 		(stroke
 			(width 0)
@@ -19854,17 +19845,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 157.48) (xy 96.52 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cf1dc77-bc7c-4580-aa42-5adc55e75f78")
-	)
-	(wire
-		(pts
-			(xy 59.69 170.18) (xy 45.72 170.18)
+			(xy 59.69 132.08) (xy 45.72 132.08)
 		)
 		(stroke
 			(width 0)
@@ -19874,7 +19855,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 162.56) (xy 59.69 162.56)
+			(xy 44.45 124.46) (xy 59.69 124.46)
 		)
 		(stroke
 			(width 0)
@@ -19884,17 +19865,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 85.09) (xy 44.45 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31896170-b087-46d7-9bdd-5555d1cc1b84")
-	)
-	(wire
-		(pts
-			(xy 40.64 175.26) (xy 59.69 175.26)
+			(xy 40.64 137.16) (xy 59.69 137.16)
 		)
 		(stroke
 			(width 0)
@@ -19914,13 +19885,13 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 172.72) (xy 90.17 172.72)
+			(xy 90.17 134.62) (xy 100.33 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "41e73f3c-b47e-4cdd-af83-9a5aac31a60d")
+		(uuid "41fc7eea-9f54-4c0e-b835-ec640f3b1899")
 	)
 	(wire
 		(pts
@@ -19934,7 +19905,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 62.23) (xy 104.14 139.7)
+			(xy 104.14 62.23) (xy 104.14 109.22)
 		)
 		(stroke
 			(width 0)
@@ -19954,7 +19925,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 157.48) (xy 96.52 157.48)
+			(xy 90.17 119.38) (xy 96.52 119.38)
 		)
 		(stroke
 			(width 0)
@@ -19974,13 +19945,13 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 87.63) (xy 48.26 160.02)
+			(xy 48.26 87.63) (xy 48.26 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "90d70079-8ff4-42e0-b89f-eb8625ab4292")
+		(uuid "7c3c6dea-ef5b-4ea9-9a40-1ccbcaf13709")
 	)
 	(wire
 		(pts
@@ -19994,7 +19965,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 118.11) (xy 52.07 118.11)
+			(xy 96.52 101.6) (xy 52.07 101.6)
 		)
 		(stroke
 			(width 0)
@@ -20034,7 +20005,27 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 172.72) (xy 45.72 172.72)
+			(xy 52.07 101.6) (xy 52.07 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5a97583-50fd-41a9-99bc-afbfc94a13af")
+	)
+	(wire
+		(pts
+			(xy 96.52 101.6) (xy 96.52 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3ac9bd3-1603-4e63-8c91-54abc823deb5")
+	)
+	(wire
+		(pts
+			(xy 40.64 134.62) (xy 45.72 134.62)
 		)
 		(stroke
 			(width 0)
@@ -20044,7 +20035,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 160.02) (xy 59.69 160.02)
+			(xy 53.34 121.92) (xy 59.69 121.92)
 		)
 		(stroke
 			(width 0)
@@ -20064,7 +20055,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 139.7) (xy 55.88 139.7)
+			(xy 104.14 109.22) (xy 55.88 109.22)
 		)
 		(stroke
 			(width 0)
@@ -20074,7 +20065,17 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 157.48) (xy 59.69 157.48)
+			(xy 55.88 109.22) (xy 55.88 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc76b089-2cb2-42c5-9933-d808ed31660d")
+	)
+	(wire
+		(pts
+			(xy 55.88 119.38) (xy 59.69 119.38)
 		)
 		(stroke
 			(width 0)
@@ -20104,16 +20105,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 118.11) (xy 52.07 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec6c89b2-91ef-43d6-bd4d-8649b4a760f2")
-	)
-	(wire
-		(pts
 			(xy 29.21 74.93) (xy 33.02 74.93)
 		)
 		(stroke
@@ -20124,7 +20115,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 57.15) (xy 100.33 172.72)
+			(xy 100.33 57.15) (xy 100.33 134.62)
 		)
 		(stroke
 			(width 0)
@@ -20132,9 +20123,19 @@
 		)
 		(uuid "f554e5f1-a9fe-4ca8-ab5a-fd2187892141")
 	)
+	(wire
+		(pts
+			(xy 44.45 85.09) (xy 44.45 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe7f560f-ce94-42b2-9c1c-2d77c0de11d2")
+	)
 	(symbol
 		(lib_id "Device:Speaker")
-		(at 35.56 172.72 0)
+		(at 35.56 134.62 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20143,7 +20144,7 @@
 		(dnp no)
 		(uuid "090432e2-6a72-4b24-8ccf-834ab63ea903")
 		(property "Reference" "LS2"
-			(at 30.48 172.7199 0)
+			(at 30.48 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20152,7 +20153,7 @@
 			)
 		)
 		(property "Value" "Speaker"
-			(at 30.48 175.2599 0)
+			(at 30.48 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20161,7 +20162,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 177.8 0)
+			(at 35.56 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20170,7 +20171,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.814 173.99 0)
+			(at 35.814 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20179,7 +20180,7 @@
 			)
 		)
 		(property "Description" "Speaker"
-			(at 35.56 172.72 0)
+			(at 35.56 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20272,7 +20273,7 @@
 	)
 	(symbol
 		(lib_id "mdoLibrary:YX5200")
-		(at 74.93 175.26 0)
+		(at 74.93 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20281,7 +20282,7 @@
 		(fields_autoplaced yes)
 		(uuid "83665182-b48e-49e7-a446-504e4e110dc4")
 		(property "Reference" "A2"
-			(at 74.93 151.13 0)
+			(at 74.93 113.03 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20289,7 +20290,7 @@
 			)
 		)
 		(property "Value" "YX5200"
-			(at 74.93 153.67 0)
+			(at 74.93 115.57 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20297,7 +20298,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 175.26 0)
+			(at 74.93 137.16 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20305,7 +20306,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 175.26 0)
+			(at 74.93 137.16 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20313,7 +20314,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 74.93 175.26 0)
+			(at 74.93 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23621,7 +23622,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 50.8 160.02 90)
+		(at 50.8 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23629,7 +23630,7 @@
 		(dnp no)
 		(uuid "d87c8bdb-820b-42df-9fd2-b19481662c5a")
 		(property "Reference" "R6"
-			(at 51.054 153.67 90)
+			(at 51.054 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23637,7 +23638,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 51.054 156.718 90)
+			(at 51.054 118.618 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23645,7 +23646,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 160.02 0)
+			(at 50.8 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23654,7 +23655,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 160.02 0)
+			(at 50.8 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23663,7 +23664,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 50.8 160.02 0)
+			(at 50.8 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)

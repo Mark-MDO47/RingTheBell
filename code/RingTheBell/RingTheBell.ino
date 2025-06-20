@@ -96,6 +96,7 @@
 //   NANO (or UNO) pin D-04   DPIN_MALLET_HIT  when it goes LOW
 //   NANO (or UNO) pin D-06   DPIN_RING_BELL   when it goes LOW
 //
+// YX5200/DFPlayer Sound Player
 //   NANO (or UNO) pin D-10   DPIN_SRL_RX   Arduino RX; YX5200 TX - 9600 Baud
 //   NANO (or UNO) pin D-11   DPIN_SRL_TX   Arduino TX; YX5200 RX - 9600 Baud
 //   NANO (or UNO) pin D-12   DPIN_AUDIO_BUSY YX5200 BUSY; HIGH when audio finishes
