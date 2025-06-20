@@ -45,9 +45,9 @@ This "schematic wiring diagram" shows connections for both the Arduino Nano and 
   - I tend to forget to hook up some of the power and ground connections if I use the standard schematic methods instead of showing the wire.
 
 Notes
-- I did not show a switch/button for the ESP32 OTA control signal since the code is configured to automatically prepare that without input.
+- I did not show a switch/button for the ESP32 OTA control signal since the code is configured to automatically prepare that without input
 - I am using resistors to drop the voltage from YX5200 5V to ESP32 3.3V (to avoid damage to ESP32)
-- The 1K resistor in the path to the YX5200 RX line prevents coupling of digital noise into the sound output.
+- The 1K resistor in the path to the YX5200 RX line prevents coupling of digital noise into the sound output
 - I did not include external power for these prototype designs; I assume they will be powered from the USB
 - I have a reliable version for Nano/Uno and for ESP32, plus two ESP32 variations that do now work reliably
 
@@ -59,7 +59,7 @@ Here with a Nano/Uno and with the YX5200 using 5V for power and 5V on the UART i
 ### ESP32 - YX5200 PWR at 5V UART at 5V - Works Reliably
 [Top](#ringthebell "Top")<br>
 Here with an ESP32 and with the YX5200 using 5V for power and 5V on the UART interface - works reliably.<br>
-<img src="https://github.com/Mark-MDO47/RingTheBell/blob/master/resources/images/RingTheBellSchematic_ESP32.png" width="500" alt="Ring the Bell Schematic with ESP32; YX5200 5V Power 5V UART - Works Reliably">
+<img src="https://github.com/Mark-MDO47/RingTheBell/blob/master/resources/images/RingTheBellSchematic_ESP32.png" width="700" alt="Ring the Bell Schematic with ESP32; YX5200 5V Power 5V UART - Works Reliably">
 
 ### ESP32 - YX5200 PWR at 5V UART at 3.3V - Not Reliable
 [Top](#ringthebell "Top")<br>
