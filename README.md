@@ -47,15 +47,29 @@ This "schematic wiring diagram" shows connections for both the Arduino Nano and 
 Notes
 - I did not show a switch/button for the ESP32 OTA control signal since the code is configured to automatically prepare that without input.
 - I am using resistors to drop the voltage from YX5200 5V to ESP32 3.3V (to avoid damage to ESP32)
-- **TBR** I am also testing to see if I can run reliably using the ESP32 3.3V serial TX without voltage translation.
-  - I have experienced inconsistent behavior using the 3.3V output on WS2812B LEDs.
-  - **NOT SURE YET** but this doesn't appear to be working. I expect to figure this out this weekend.
-  - To see how to use a SN74HCT125N quadruple bus buffer to raise the signal voltage from 3.3V to 5.0V see the following (there are other components but the ESP32 and YX5200 are wired the same)
-    - https://github.com/Mark-MDO47/DuelWithBanjos?tab=readme-ov-file#schematic
 - The 1K resistor in the path to the YX5200 RX line prevents coupling of digital noise into the sound output.
 - I did not include external power for these prototype designs; I assume they will be powered from the USB
+- I have a reliable version for Nano/Uno and for ESP32, plus two ESP32 variations that do now work reliably
 
-<img src="https://github.com/Mark-MDO47/RingTheBell/blob/master/resources/images/RingTheBellSchematic.png" width="800" alt="Ring the Bell schematic">
+### Nano/Uno - YX5200 PWR at 5V UART at 5V - Works Reliably
+[Top](#ringthebell "Top")<br>
+Here with a Nano/Uno and with the YX5200 using 5V for power and 5V on the UART interface - works reliably.<br>
+<img src="https://github.com/Mark-MDO47/RingTheBell/blob/master/resources/images/RingTheBellSchematic_Nano.png" width="500" alt="Ring the Bell Schematic with Nano - works reliably">
+
+### ESP32 - YX5200 PWR at 5V UART at 5V - Works Reliably
+[Top](#ringthebell "Top")<br>
+Here with an ESP32 and with the YX5200 using 5V for power and 5V on the UART interface - works reliably.<br>
+<img src="https://github.com/Mark-MDO47/RingTheBell/blob/master/resources/images/RingTheBellSchematic_ESP32.png" width="500" alt="Ring the Bell Schematic with ESP32; YX5200 5V Power 5V UART - Works Reliably">
+
+### ESP32 - YX5200 PWR at 5V UART at 3.3V - Not Reliable
+[Top](#ringthebell "Top")<br>
+Here with an ESP32 and with the YX5200 using 5V for power and 3.3V on the UART interface - not reliable. The YX5200 often ignores commands from the ESP32.<br>
+<img src="https://github.com/Mark-MDO47/RingTheBell/blob/master/resources/images/RingTheBellSchematic_ESP32_pwr5_uart3.3.png" width="500" alt="Ring the Bell Schematic with ESP32; YX5200 5V Power 3.3V UART - Not Reliable">
+
+### ESP32 - YX5200 PWR at 3.3V UART at 3.3V - Not Reliable
+[Top](#ringthebell "Top")<br>
+Here with an ESP32 and with the YX5200 using 3.3V for power and 3.3V on the UART interface - not reliable. The YX5200 often ignores commands from the ESP32.<br>
+<img src="https://github.com/Mark-MDO47/RingTheBell/blob/master/resources/images/RingTheBellSchematic_ESP32_pwr3.3_uart3.3.png" width="500" alt="Ring the Bell Schematic with ESP32; YX5200 3.3V Power 3.3V UART - Not Reliable">
 
 ## Code
 [Top](#ringthebell "Top")<br>
