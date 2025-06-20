@@ -30,7 +30,7 @@ Then it starts a rising sound of finite duration.
 - If the rising sound finishes before the "ring the bell" sound, then silence until another input happens.
 
 There are two ways to compile, which use different I/O pins:
-- as an ESP32 (but not ESP32-S3 which uses different pins)
+- as an ESP32 (but not ESP32-S3 which uses different pins; only exception I know)
 - as an Arduino Nano or Uno
 
 ### ESP32 Over-The-Air Update - OTA
