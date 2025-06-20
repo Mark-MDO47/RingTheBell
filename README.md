@@ -59,11 +59,38 @@ Notes
 ### Nano/Uno - YX5200 PWR at 5V UART at 5V - Works Reliably
 [Top](#ringthebell "Top")<br>
 Here with a Nano/Uno and with the YX5200 using 5V for power and 5V on the UART interface - works reliably.<br>
+```
+// NANO (and UNO) pin definitions:
+//
+// Control inputs for Sound Processing - these two are GPIO pins with internal pull-up capability
+//   NANO (or UNO) pin D-04   DPIN_MALLET_HIT  when it goes LOW
+//   NANO (or UNO) pin D-06   DPIN_RING_BELL   when it goes LOW
+//
+// YX5200/DFPlayer Sound Player
+//   NANO (or UNO) pin D-10   DPIN_SRL_RX   Arduino RX; YX5200 TX - 9600 Baud
+//   NANO (or UNO) pin D-11   DPIN_SRL_TX   Arduino TX; YX5200 RX - 9600 Baud
+//   NANO (or UNO) pin D-12   DPIN_AUDIO_BUSY YX5200 BUSY; HIGH when audio finishes
+```
 <img src="https://github.com/Mark-MDO47/RingTheBell/blob/master/resources/images/RingTheBellSchematic_Nano.png" width="500" alt="Ring the Bell Schematic with Nano - works reliably">
 
 ### ESP32 - YX5200 PWR at 5V UART at 5V - Works Reliably
 [Top](#ringthebell "Top")<br>
 Here with an ESP32 and with the YX5200 using 5V for power and 5V on the UART interface - works reliably.<br>
+```
+// ESP32 pin definitions:
+//    NOTE: these are good pins for most ESP32 - see https://randomnerdtutorials.com/esp32-pinout-reference-gpios/
+//    If using an ESP32-S3, see https://randomnerdtutorials.com/esp32-s3-devkitc-pinout-guide/ and make any
+//       needed adjustments.
+//
+// Control inputs for Sound Processing - these two are GPIO pins with internal pull-up capability
+//   ESP32 Dev Module pin D-13   DPIN_MALLET_HIT  when it goes LOW
+//   ESP32 Dev Module pin D-27   DPIN_RING_BELL   when it goes LOW
+// 
+// YX5200/DFPlayer Sound Player
+//   ESP32 Dev Module pin D-16   DPIN_SRL_RX   Arduino RX; YX5200 TX - 9600 Baud
+//   ESP32 Dev Module pin D-17   DPIN_SRL_TX   Arduino TX; YX5200 RX - 9600 Baud
+//   ESP32 Dev Module pin D-23   DPIN_AUDIO_BUSY YX5200 BUSY; HIGH when audio finishes
+```
 <img src="https://github.com/Mark-MDO47/RingTheBell/blob/master/resources/images/RingTheBellSchematic_ESP32.png" width="700" alt="Ring the Bell Schematic with ESP32; YX5200 5V Power 5V UART - Works Reliably">
 
 ### ESP32 - YX5200 PWR at 5V UART at 3.3V - Not Reliable
