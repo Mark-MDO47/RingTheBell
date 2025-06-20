@@ -50,11 +50,11 @@ This "schematic wiring diagram" shows connections for both the Arduino Nano and 
 
 Notes
 - I did not show a switch/button for the ESP32 OTA control signal since the code is configured to automatically prepare that without input
-- I am using resistors to drop the voltage from YX5200 5V to ESP32 3.3V (to avoid damage to ESP32)
 - The 1K resistor in the path to the YX5200 RX line prevents coupling of digital noise into the sound output
 - I did not include external power for these prototype designs; I assume they will be powered from the USB
 - I have a reliable version for Nano/Uno and for ESP32, plus two ESP32 variations that do now work reliably
   - The reliable ESP32 variation uses a SN74HCT125N to do voltage level translation for the UART interface
+  - I am using resistors to drop the voltage from YX5200 5V to ESP32 3.3V (to avoid damage to ESP32)
 
 ### Nano/Uno - YX5200 PWR at 5V UART at 5V - Works Reliably
 [Top](#ringthebell "Top")<br>
