@@ -54,6 +54,7 @@ Notes
 - The 1K resistor in the path to the YX5200 RX line prevents coupling of digital noise into the sound output
 - I did not include external power for these prototype designs; I assume they will be powered from the USB
 - I have a reliable version for Nano/Uno and for ESP32, plus two ESP32 variations that do now work reliably
+  - The reliable ESP32 variation uses a SN74HCT125N to do voltage level translation for the UART interface
 
 ### Nano/Uno - YX5200 PWR at 5V UART at 5V - Works Reliably
 [Top](#ringthebell "Top")<br>
